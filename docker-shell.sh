@@ -4,10 +4,12 @@ set -e
 
 export BASE_DIR=$(pwd)
 export SECRETS_DIR=$(pwd)/../secrets/
-export GCS_BUCKET_NAME="cheese-app-data-versioning"
-export GCP_PROJECT="ac215-project"
 export GCP_ZONE="us-central1-a"
 export GOOGLE_APPLICATION_CREDENTIALS="/secrets/data-service-account.json"
+export GCS_BUCKET_NAME="hw2-part2-bucket"
+export GCP_PROJECT="ac215-471916" 
+
+
 
 
 echo "Building image"
